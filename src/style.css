@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Teddy;
+  src: url(Teddy.woff2) format('truetype');
+}
+
+html,
+body {
+  background-color: #fff1f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Teddy', sans-serif;
+}
+
+svg {
+  width: 512px;
+  height: 512px;
+  background-color: #fff1f4;
+  border: 15px double #fe7c88;
+  padding: 5px;
+}
